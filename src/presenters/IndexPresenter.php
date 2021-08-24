@@ -13,5 +13,6 @@ class IndexPresenter
 		$viewModel = new IndexViewModel();
 
 		return $viewModel->render('./src/views/indexView.php', $response);
+		
 	}
 }
