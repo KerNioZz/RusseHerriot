@@ -6,9 +6,9 @@
 class DbConnection
 {
 	private $_host = '127.0.0.1';
-	private $_dbName = 'new_rh';
-	private $_username = 'root';
-	private $_passwd = 'root';
+	private $_dbName = '';
+	private $_username = '';
+	private $_passwd = '';
 	private $_options = array(
 		PDO::MYSQL_ATTR_INIT_COMMAND => 'SET NAMES utf8',
 		PDO::MYSQL_ATTR_INIT_COMMAND => "SET lc_time_names = 'fr_FR'",
